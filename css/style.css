@@ -254,8 +254,6 @@ td{
         padding-right: 5px;
         padding-left: 5px;
     }
-
-
 }
 
 
@@ -269,7 +267,6 @@ td{
 
 .sec-card{
     padding: 5% 10%;
-    
     
 }
 
@@ -299,12 +296,13 @@ td{
     padding: 0;
     margin: 0;
 }
+
 h6{
     padding: 2% 3%;
     margin: 0;
     font-size: 0.5rem;
-
 }
+ 
 .card-title1{
     text-align: center;
     font-size: 1.5rem;
@@ -337,7 +335,7 @@ h6{
 
 ul{
     text-align: left;
-    padding: 0 10% ;
+    padding: 0 0 0 9%  ;
 }
 
 .btn-position{
@@ -399,10 +397,10 @@ ul{
 
 /* tablet */
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 915px) {
 
     .line-height{
-        line-height: 1.8rem;
+        line-height: 1.5rem;
 
     }
     .col-md-6{
@@ -413,13 +411,31 @@ ul{
         padding: 6.5% 0;
     }
     
+
 }
+@media (min-width: 916px) and (max-width: 1023px) {
+
+    .line-height{
+        line-height: 1.9rem;
+
+    }
+    .col-md-6{
+        padding: 3%;
+    }
+
+    .card-title1{
+        padding: 6.5% 0;
+    }
+    
+
+}
+
 
 /* med laptop */
 @media (min-width: 1024px) and (max-width: 1169px) {
 
     .line-height{
-        line-height: 1.7rem;
+        line-height: 2rem;
 
     }
     .col-md-6{
@@ -432,13 +448,16 @@ ul{
     
 }
 /* large laptop */
-@media (min-width: 1169px) and (max-width: 1440px) {
+@media (min-width: 1169px) and (max-width: 1290px) {
 
     .line-height{
-        line-height: 2.4rem;
+        line-height: 1.9rem;
 
     }
     .col-md-6{
         padding: 5%;
     }   
+    .card-title1{
+        padding: 5%;
+    }
 }
