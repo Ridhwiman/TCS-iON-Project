@@ -42,7 +42,7 @@ span{
 /* sub heading */
 
 #SubHeading{
-    height: 20%;
+    height: 30%;
     width: 100%;
     background-image: url("../Compass_prof_school_left_banner.jpg");
     background-repeat: none;
@@ -51,20 +51,22 @@ span{
 
 .box{
     height: auto;
-    width: auto;
-    padding-bottom: 2%;
+    width: 100%;
 }
 
 .banner-heading{
     padding: 5% 18% 2%;
     color: yellow;
     font-size: 2.25rem;
+    font-size: calc(1.5rem + 1vw);
+    
 }
 
 .view-card{
     color: white;
     font-size: 1.50rem;
-    padding: 0 18%;
+    padding: 0 0 7% 18%;
+    
 }
 
 /* insight card */
@@ -83,7 +85,7 @@ h2{
 }
 .dammy-img{
     height: 50%;
-    width:80%;
+    width: 80%;
    
 }
 .img-position{
@@ -272,10 +274,7 @@ td{
 }
 
 .card-body{
-    padding: 0 0 4%;
-   
-    
-    
+    padding: 0 0 4%;   
 }
 .card{
     border-radius: 1rem;
@@ -324,13 +323,11 @@ h6{
     border-radius: 1rem 1rem 0 0 ;
 }
 
-.pUl1{
-    padding-bottom: 1%;
+
+.line-height{
+    line-height: 2.1rem;
 }
 
-.pUl2{
-    padding: 0 0 11%;
-}
 
 .card-text{
     text-align: left;
@@ -340,7 +337,7 @@ h6{
 
 ul{
     text-align: left;
-    padding: 0 12% ;
+    padding: 0 10% ;
 }
 
 .btn-position{
@@ -400,4 +397,48 @@ ul{
      padding-bottom: 10%;
  }
 
- 
+/* tablet */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    .line-height{
+        line-height: 1.8rem;
+
+    }
+    .col-md-6{
+        padding: 3%;
+    }
+
+    .card-title1{
+        padding: 6.5% 0;
+    }
+    
+}
+
+/* med laptop */
+@media (min-width: 1024px) and (max-width: 1169px) {
+
+    .line-height{
+        line-height: 1.7rem;
+
+    }
+    .col-md-6{
+        padding: 3%;
+    }
+
+    .card-title1{
+        padding:5.5% ;
+    }
+    
+}
+/* large laptop */
+@media (min-width: 1169px) and (max-width: 1440px) {
+
+    .line-height{
+        line-height: 2.4rem;
+
+    }
+    .col-md-6{
+        padding: 5%;
+    }   
+}
