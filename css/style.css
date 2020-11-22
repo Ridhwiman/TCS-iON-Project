@@ -1,4 +1,6 @@
-
+body{
+    font-family: 'Open Sans', sans-serif;;
+}
 
 .container-fluid{
     padding: 0;
@@ -9,7 +11,7 @@
 h1{
     line-height: 1;
     margin: auto;
-    padding: 1% 2% 0.5%;
+    padding: 1% 2% 0.25%;
     border: 0;
     font-size: 2.5rem;
 }
@@ -400,7 +402,7 @@ ul{
 @media (min-width: 768px) and (max-width: 915px) {
 
     .line-height{
-        line-height: 1.5rem;
+        line-height: 1.85rem;
 
     }
     .col-md-6{
@@ -416,7 +418,7 @@ ul{
 @media (min-width: 916px) and (max-width: 1023px) {
 
     .line-height{
-        line-height: 1.9rem;
+        line-height: 1.7rem;
 
     }
     .col-md-6{
